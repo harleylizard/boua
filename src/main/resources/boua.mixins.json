@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.harleylizard.boua.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MushroomBlockMixin",
+    "TallGrassBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+  ],
+  "refmap": "boua.refmap.json"
+}
